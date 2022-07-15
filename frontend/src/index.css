@@ -20,3 +20,12 @@ a:visited {
   text-decoration: none;
 }
 
+.dsmeta-logo-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#sales{
+  padding: 40px 10px;
+}
