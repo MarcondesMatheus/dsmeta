@@ -10,7 +10,7 @@ import './styles.css';
 function SalesCard() {
 
     const max = new Date();
-    const min = new Date(new Date().setDate(new Date().getDate() - 30));
+    const min = new Date(new Date().setDate(new Date().getDate() - 120));
 
     const [minDate, setMinDate] = useState(min);
     const [maxDate, setMaxDate] = useState(max);
